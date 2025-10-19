@@ -114,7 +114,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Massachusetts Amherst",
-      logo: "https://upload.wikimedia.org/wikipedia/en/6/6e/UMass_Amherst_logo.svg",
+      logo: "./src/assets/images/Umass.png",
       subHeader: "Master of Science in Computer Science",
       duration: "Expected Graduation: May 2027",
       desc: "Specializing in AI and ML",
