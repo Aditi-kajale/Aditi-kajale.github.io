@@ -101,7 +101,7 @@ const skillsSection = {
   { skillName: "Agile Development", fontAwesomeClassname: "fas fa-tasks" },
   { skillName: "SDLC", fontAwesomeClassname: "fas fa-project-diagram" },
   { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
-  { skillName: "JUnit", fontAwesomeClassname: "fas fa-vial" },
+  { skillName: "JUnit", fontAwesomeClassname: "fas fa-vial" }
 ];
 
   display: true
