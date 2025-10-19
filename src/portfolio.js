@@ -200,28 +200,76 @@ const bigProjects = {
   display: true
 };
 
+
 // Achievements Section
 const achievementSection = {
-  title: emoji("Achievements & Certifications 🏆"),
-  subtitle:
-    "Awards, certifications, and recognitions earned over my career.",
+  title: emoji("Achievements & Publications 🏆"),
+  subtitle: "Awards, research papers, and recognitions earned over my career.",
   achievementsCards: [
+    // Publications
     {
-      title: "AWS Certified Cloud Practitioner",
-      subtitle:
-        "Certified by Amazon Web Services for foundational cloud knowledge.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-      imageAlt: "AWS Logo",
+      title: "Research Paper:  L3Cube-IndicSBERT: A simple approach for learning cross-lingual sentence representations using multilingual BERT",
+      subtitle: "Published in ACL Anthology",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Springer_logo.png",
+      imageAlt: "ACL Logo",
       footerLink: [
         {
-          name: "View Certification",
-          url: "https://aws.amazon.com/certification/"
+          name: "View Paper",
+          url: "https://aclanthology.org/2023.paclic-1.16.pdf"
         }
       ]
+    },
+    {
+      title: "Research Paper: Topic Entity Summary Sentiment Analyzer (TESSA): The 4-in-1 Text Analysis Toolkit",
+      subtitle: "Published at IEEE",
+      image: "https://upload.wikimedia.org/wikipedia/commons/8/81/ACL_Logo.png",
+      imageAlt: "IEEE Logo",
+      footerLink: [
+        {
+          name: "View Paper",
+          url: "https://ieeexplore.ieee.org/document/11070849"
+        }
+      ]
+    },
+    {
+      title: "Research Paper: L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi",
+      subtitle: "Published at Springer",
+      image: "https://upload.wikimedia.org/wikipedia/commons/6/69/IEEE_Logo.png",
+      imageAlt: "Springer Logo",
+      footerLink: [
+        {
+          name: "View Paper",
+          url: "https://link.springer.com/chapter/10.1007/978-3-031-37963-5_82"
+        }
+      ]
+    },
+
+    // Awards & Recognitions
+    {
+      title: "The Citi Corp Hackathon Winner",
+      subtitle: "Won the apprenticeship project hackathon by securing 1st position.",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Citi_Logo.svg",
+      imageAlt: "Citi Logo",
+      footerLink: []
+    },
+    {
+      title: "WeTech Goldman Sachs Global Mentorship Award",
+      subtitle: "Won the WeTech Goldman Sachs Mentorship Award to only 50 recipients all over India.",
+      image: "https://upload.wikimedia.org/wikipedia/commons/1/18/Goldman_Sachs_Logo.svg",
+      imageAlt: "Goldman Sachs Logo",
+      footerLink: []
+    },
+    {
+      title: "Flipkart Girls Wanna Code 4.0",
+      subtitle: "Selected as one of the top 200 participants out of 9,700 applicants.",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Flipkart_logo.svg",
+      imageAlt: "Flipkart Logo",
+      footerLink: []
     }
   ],
   display: true
 };
+
 
 
 
