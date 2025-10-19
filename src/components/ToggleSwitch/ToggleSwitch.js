@@ -4,15 +4,18 @@ import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
 const ToggleSwitch = () => {
-  const styleContext = useContext(StyleContext);
-  const [isChecked, setChecked] = useState(true); // default to dark
+  // Destructure context to satisfy ESLint
+  const { isDark, changeTheme } = useContext(StyleContext);
 
-  // Sync state with context on mount
+  // Local state for toggle, default to dark
+  const [isChecked, setChecked] = useState(true);
+
+  // Ensure context theme is dark on mount
   useEffect(() => {
-    if (!styleContext.isDark) {
-      styleContext.changeTheme(); // switch context to dark if not already
+    if (!isDark) {
+      changeTheme();
     }
-  }, []);
+  }, [isDark, changeTheme]);
 
   return (
     <label className="switch">
@@ -20,7 +23,7 @@ const ToggleSwitch = () => {
         type="checkbox"
         checked={isChecked}
         onChange={() => {
-          styleContext.changeTheme();
+          changeTheme();
           setChecked(!isChecked);
         }}
       />
