@@ -218,6 +218,11 @@ const contactInfo = {
 };
 
 
+// Twitter Section
+const twitterDetails = {
+  userName: "aditi_kajale",
+  display: false
+};
 
 const isHireable = true;
 
@@ -239,6 +244,7 @@ export {
   podcastSection,
   contactInfo,
   isHireable,
-  resumeSection
+  resumeSection,
+  twitterDetails
 };
 
