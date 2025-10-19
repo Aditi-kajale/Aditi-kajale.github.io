@@ -55,7 +55,7 @@ const podcastSection = {
 const socialMediaLinks = {
   github: "https://github.com/Aditi-kajale",
   linkedin: "https://www.linkedin.com/in/aditi-kajale/",
-  gmail: "aditi.kajale@gmail.com",
+  gmail: "kajaleaditi01@gmail.com",
   display: true
 };
 
@@ -69,18 +69,41 @@ const skillsSection = {
     emoji("⚡ Integrate third-party services (Firebase / AWS / APIs)")
   ],
   softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "NodeJS", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" }
-  ],
+  // Programming Languages
+  { skillName: "C", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "HTML", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt" },
+
+  // Databases
+  { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "NoSQL (MongoDB)", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "SQL Server", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "Redis", fontAwesomeClassname: "fas fa-database" },
+
+  // Frameworks & Tools
+  { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Redux", fontAwesomeClassname: "fas fa-sync-alt" },
+  { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+  { skillName: "Transformer Models", fontAwesomeClassname: "fas fa-robot" },
+  { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
+  { skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain" },
+  { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
+  { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
+  { skillName: "Model Fine-tuning", fontAwesomeClassname: "fas fa-cogs" },
+  { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+  { skillName: "Agile Development", fontAwesomeClassname: "fas fa-tasks" },
+  { skillName: "SDLC", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
+  { skillName: "JUnit", fontAwesomeClassname: "fas fa-vial" },
+];
+
   display: true
 };
 
