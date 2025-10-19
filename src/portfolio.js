@@ -3,6 +3,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // optional animation
+import umassLogo from "./assets/images/Umass.png";
 
 // Splash Screen
 const splashScreen = {
@@ -114,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Massachusetts Amherst",
-      logo: "./src/assets/images/Umass.png",
+      logo: umassLogo,
       subHeader: "Master of Science in Computer Science",
       duration: "Expected Graduation: May 2027",
       desc: "Specializing in AI and ML",
