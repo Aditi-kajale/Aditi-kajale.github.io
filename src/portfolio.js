@@ -62,11 +62,12 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I Do",
-  subTitle: "Full Stack Developer exploring modern technologies",
+  subTitle: "AI/ML Engineer & Full Stack Developer specializing in Machine Learning, NLP, and Software Development",
   skills: [
-    emoji("⚡ Build responsive Front-end / UI for web and mobile apps"),
-    emoji("⚡ Develop RESTful APIs with Node.js and Express"),
-    emoji("⚡ Integrate third-party services (Firebase / AWS / APIs)")
+    emoji("⚡ Build intelligent AI/ML solutions including NLP pipelines and Transformer-based models"),
+    emoji("⚡ Develop full-stack web applications with responsive front-end and robust back-end systems"),
+    emoji("⚡ Fine-tune pre-trained models (BERT, BART, IndicSBERT) for domain-specific applications"),
+    emoji("⚡ Optimize large-scale data workflows and enhance performance using caching, multithreading, and database tuning")
   ],
   softwareSkills: [
   // Programming Languages
@@ -126,14 +127,14 @@ const educationInfo = {
       logo: "https://upload.wikimedia.org/wikipedia/en/0/0a/MKSSS_Cummins_College_of_Engineering_for_Women_logo.png",
       subHeader: "Bachelor of Engineering in Computer Engineering",
       duration: "2019 – 2023",
-      desc: "Graduated with distinction; core focus on software development and data structures."
+      desc: "Graduated with distinction; core focus on data structures, algorithms and software development."
     }
   ]
 };
 
 // Tech Stack Section
 const techStack = {
-  viewSkillBars: true,
+  viewSkillBars: false,
   experience: [
     { Stack: "Frontend / Design", progressPercentage: "90%" },
     { Stack: "Backend", progressPercentage: "80%" },
