@@ -178,22 +178,21 @@ const bigProjects = {
   subtitle: "Notable academic and professional projects",
   projects: [
     {
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      projectName: "AI-Powered Resume Analyzer",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/01/Stock_market_icon.svg",
+      projectName: "NSE BSE Arbitrage Recommendation System",
       projectDesc:
-        "A web app that analyzes resumes and provides feedback using NLP.",
+        "Built a web-based trade recommendation system using the Yahoo Finance API to detect BSE–NSE arbitrage opportunities in Nifty 50 stocks, enabling real-time email alerts and improving trading efficiency.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Aditi-kajale/resume-analyzer" }
+        { name: "GitHub", url: "https://github.com/Aditi-kajale/NSE-BSE-Arbitrage-System" }
       ]
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Node.js_logo.svg",
-      projectName: "Job Portal Application",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/05/NLP_icon.svg",
+      projectName: "TESSA: the 4-in-1 Text Analytics Engine",
       projectDesc:
-        "Developed a MERN stack portal for job applications with JWT-based authentication.",
+        "Engineered an integrated NLP platform leveraging Transformer architecture for Abstractive Text Summarization, improving ROUGE-L and content coherence scores by 30% through model fine-tuning and data optimization.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Aditi-kajale/job-portal" }
+        { name: "GitHub", url: "https://github.com/Aditi-kajale/TESSA-NLP-Engine" }
       ]
     }
   ],
