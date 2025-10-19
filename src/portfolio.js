@@ -188,7 +188,7 @@ const resumeSection = {
 // Contact Info
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Let’s connect about roles or collaborations in AI, ML, and Software!,
+  subtitle: "Let’s connect about roles or collaborations in AI, ML, and Software!",
   number: "+1 (413) 315-1082",
   email_address: "kajaleaditi01@gmail.com"
 };
