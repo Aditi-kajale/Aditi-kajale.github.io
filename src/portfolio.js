@@ -214,12 +214,18 @@ const achievementSection = {
   display: true
 };
 
-// ====== Added back to fix Netlify build ======
+// ====== Added back missing sections ======
 const openSource = {
   showGithubProfile: "true",
   display: false
 };
-// ============================================
+
+const blogSection = {
+  title: "Blogs",
+  subtitle: "Personal tech blogs and insights (currently disabled)",
+  display: false
+};
+// =========================================
 
 // Contact
 const contactInfo = {
@@ -245,7 +251,8 @@ export {
   workExperiences,
   bigProjects,
   achievementSection,
-  openSource, // ✅ added back
+  openSource, // ✅ kept
+  blogSection, // ✅ new fix
   contactInfo,
   twitterDetails,
   isHireable
