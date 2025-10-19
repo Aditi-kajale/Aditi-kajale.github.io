@@ -20,7 +20,8 @@ const greeting = {
   username: "Aditi Kajale",
   title: "Hi! I'm Aditi",
   subTitle: emoji(
-    "Graduate Computer Science student specializing in Artificial Intelligence and Machine Learning, with hands-on experience in Machine Learning, NLP and Software Development",
+    "Graduate Computer Science student specializing in Artificial Intelligence and Machine Learning, with hands-on experience in Machine Learning, NLP and Software Development"
+    ),
   resumeLink:
     "https://drive.google.com/file/d/1JcnYn57bVvWOGsBuxRVxhmMFuiMnzl9G/view?usp=sharing",
   displayGreeting: true
