@@ -237,6 +237,12 @@ const podcastSection = {
   subtitle: "Podcast appearances or recordings (currently disabled)",
   display: false
 };
+
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Download my resume here (currently disabled)",
+  display: false
+};
 // =========================================
 
 // Contact
@@ -267,6 +273,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  resumeSection,
   contactInfo,
   twitterDetails,
   isHireable
