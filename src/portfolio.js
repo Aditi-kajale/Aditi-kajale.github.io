@@ -4,6 +4,25 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // optional animation
 import umassLogo from "./assets/images/Umass.png";
+import {
+  FaPython,
+  FaJava,
+  FaJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaGitAlt,
+  FaGithub,
+  FaLinux,
+  FaDatabase,
+  FaProjectDiagram,
+  FaTasks,
+  FaCogs,
+  FaBrain,
+  FaLeaf
+} from "react-icons/fa";
+import { SiC, SiCplusplus, SiSpringboot, SiPytorch, SiTensorflow, SiScikitlearn, SiNumpy, SiPandas, SiRedux, SiMysql, SiMongodb, SiRedis, SiJunit } from "react-icons/si";
+
 
 // Splash Screen
 const splashScreen = {
@@ -72,38 +91,38 @@ const skillsSection = {
   ],
   softwareSkills: [
   // Programming Languages
-  { skillName: "C", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-  { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "HTML", fontAwesomeClassname: "fab fa-html5" },
-  { skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "C", icon: <SiC color="#A8B9CC" size={40} /> },
+  { skillName: "C++", icon: <SiCplusplus color="#00599C" size={40} /> },
+  { skillName: "Python", icon: <FaPython color="#3776AB" size={40} /> },
+  { skillName: "Java", icon: <FaJava color="#E76F00" size={40} /> },
+  { skillName: "JavaScript", icon: <FaJs color="#F7DF1E" size={40} /> },
+  { skillName: "HTML", icon: <FaHtml5 color="#E34F26" size={40} /> },
+  { skillName: "CSS", icon: <FaCss3Alt color="#1572B6" size={40} /> },
 
   // Databases
-  { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "NoSQL (MongoDB)", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "SQL Server", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "Redis", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "MySQL", icon: <SiMysql color="#4479A1" size={40} /> },
+  { skillName: "MongoDB", icon: <SiMongodb color="#47A248" size={40} /> },
+  { skillName: "Redis", icon: <SiRedis color="#DC382D" size={40} /> },
+  { skillName: "SQL Server", icon: <FaDatabase color="#CC2927" size={40} /> },
 
   // Frameworks & Tools
-  { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "Redux", fontAwesomeClassname: "fas fa-sync-alt" },
-  { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
-  { skillName: "Transformer Models", fontAwesomeClassname: "fas fa-robot" },
-  { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
-  { skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain" },
-  { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
-  { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-project-diagram" },
-  { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
-  { skillName: "Model Fine-tuning", fontAwesomeClassname: "fas fa-cogs" },
-  { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
-  { skillName: "Agile Development", fontAwesomeClassname: "fas fa-tasks" },
-  { skillName: "SDLC", fontAwesomeClassname: "fas fa-project-diagram" },
-  { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
-  { skillName: "JUnit", fontAwesomeClassname: "fas fa-vial" }
+  { skillName: "React", icon: <FaReact color="#61DAFB" size={40} /> },
+  { skillName: "Redux", icon: <SiRedux color="#764ABC" size={40} /> },
+  { skillName: "Spring Boot", icon: <SiSpringboot color="#6DB33F" size={40} /> },
+  { skillName: "Transformer Models", icon: <FaBrain color="#FF6F00" size={40} /> },
+  { skillName: "PyTorch", icon: <SiPytorch color="#EE4C2C" size={40} /> },
+  { skillName: "TensorFlow", icon: <SiTensorflow color="#FF6F00" size={40} /> },
+  { skillName: "Scikit-learn", icon: <SiScikitlearn color="#F7931E" size={40} /> },
+  { skillName: "NumPy", icon: <SiNumpy color="#013243" size={40} /> },
+  { skillName: "Pandas", icon: <SiPandas color="#150458" size={40} /> },
+  { skillName: "Model Fine-tuning", icon: <FaCogs color="#808080" size={40} /> },
+  { skillName: "Linux", icon: <FaLinux color="#FCC624" size={40} /> },
+  { skillName: "Git", icon: <FaGitAlt color="#F05032" size={40} /> },
+  { skillName: "GitHub", icon: <FaGithub color="#181717" size={40} /> },
+  { skillName: "Agile Development", icon: <FaTasks color="#6DB33F" size={40} /> },
+  { skillName: "SDLC", icon: <FaProjectDiagram color="#5C6BC0" size={40} /> },
+  { skillName: "REST APIs", icon: <FaCogs color="#4285F4" size={40} /> },
+  { skillName: "JUnit", icon: <SiJunit color="#25A162" size={40} /> }
 ],
 
   display: true
