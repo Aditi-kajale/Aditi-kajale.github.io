@@ -26,6 +26,30 @@ const greeting = {
     "https://drive.google.com/file/d/1JcnYn57bVvWOGsBuxRVxhmMFuiMnzl9G/view?usp=sharing",
   displayGreeting: true
 };
+// Blog Section
+const blogSection = {
+  title: "Blogs",
+  subtitle: "Sharing insights and learnings from my projects and research.",
+  displayMediumBlogs: "false", // Set true to display Medium blogs
+  display: false // Set true if you want to show this section
+};
+
+// Talk Section
+const talkSection = {
+  title: "Talks",
+  subtitle: emoji("I love sharing knowledge 💬"),
+  talks: [],
+  display: false
+};
+
+// Podcast Section
+const podcastSection = {
+  title: emoji("Podcasts 🎙️"),
+  subtitle: "I occasionally discuss AI and tech topics.",
+  podcasts: [],
+  display: false
+};
+
 
 // Social Media Links
 const socialMediaLinks = {
@@ -210,8 +234,11 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  
+  blogSection,
+  talkSection,
+  podcastSection,
   contactInfo,
   isHireable,
   resumeSection
 };
+
