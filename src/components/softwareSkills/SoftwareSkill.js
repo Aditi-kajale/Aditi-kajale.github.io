@@ -1,23 +1,35 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
-import * as SiIcons from "react-icons/si";
-
-import { softwareSkills } from "../../portfolio"; // adjust path as needed
+import { skillsSection } from "../../portfolio";
 
 function SkillsSection() {
+  if (!skillsSection.display) return null;
+
   return (
-    <div className="skills-icons flex flex-wrap justify-center gap-6">
-      {softwareSkills.map((skill) => {
-        const IconComponent =
-          FaIcons[skill.icon] || SiIcons[skill.icon] || FaIcons["FaCode"];
-        return (
-          <div key={skill.skillName} className="flex flex-col items-center">
-            <IconComponent size={40} color={skill.color} />
-            <p className="text-sm mt-2">{skill.skillName}</p>
+    <section id="skills" className="flex flex-col items-center py-10">
+      {/* Section Header */}
+      <h1 className="text-3xl font-bold mb-3">{skillsSection.title}</h1>
+      <p className="text-lg text-gray-600 mb-8">{skillsSection.subTitle}</p>
+
+      {/* Skill Descriptions */}
+      <ul className="max-w-3xl mb-8 list-disc list-inside text-center text-gray-700">
+        {skillsSection.skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
+
+      {/* Skill Icons */}
+      <div className="skills-icons flex flex-wrap justify-center gap-8">
+        {skillsSection.softwareSkills.map((skill, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center w-20 transition-transform hover:scale-110 hover:drop-shadow-md"
+          >
+            {skill.icon}
+            <p className="text-sm mt-2 text-gray-700">{skill.skillName}</p>
           </div>
-        );
-      })}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 }
 
