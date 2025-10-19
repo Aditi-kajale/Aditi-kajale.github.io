@@ -62,11 +62,11 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I Do",
-  subTitle: "AI/ML Engineer & Full Stack Developer specializing in Machine Learning, NLP, and Software Development",
+  subTitle: "AI/ML Engineer & Full Stack Developer",
   skills: [
     emoji("⚡ Build intelligent AI/ML solutions including NLP pipelines and Transformer-based models"),
     emoji("⚡ Develop full-stack web applications with responsive front-end and robust back-end systems"),
-    emoji("⚡ Fine-tune pre-trained models (BERT, BART, IndicSBERT) for domain-specific applications"),
+    emoji("⚡ Fine-tune pre-trained models (BERT, BART) for domain-specific applications"),
     emoji("⚡ Optimize large-scale data workflows and enhance performance using caching, multithreading, and database tuning")
   ],
   softwareSkills: [
@@ -152,31 +152,47 @@ const workExperiences = {
       company: "D.E. Shaw & Co.",
       companylogo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/D.E._Shaw_%26_Co._Logo.png",
       date: "Jul 2023 – Jul 2025",
-      desc: "Designed full-stack solutions for critical workflows in large financial systems, achieving 80% faster API responses and 85% increase in user efficiency. Engineered an advanced regex-based search for secure note management with Redis caching, slashing search time by 75%. Integrated '@' annotation support for attachment references and implemented thread-safe Usage Auditing using concurrent linked queues."
+      descBullets: [
+        "Designed full-stack solutions for critical workflows in large financial systems, achieving 80% faster API responses and 85% increase in user efficiency.",
+        "Engineered an advanced regex-based search for secure note management with Redis caching, slashing search time by 75%.",
+        "Integrated '@' annotation support for attachment references in notes with automated hyperlinking and retrieval.",
+        "Implemented thread-safe Usage Auditing using concurrent linked queues for in-memory record buffering and batched processing."
+      ]
     },
     {
       role: "Natural Language Processing Intern",
       company: "L3 Cube Labs",
       companylogo: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
       date: "Sep 2022 – Jul 2023",
-      desc: "Proposed a two-step fine-tuning on machine-translated NLI and STS datasets, releasing L3Cube-MahaSBERT and L3Cube-HindSBERT with state-of-the-art semantic similarity performance. Developed L3Cube-IndicSBERT, the first multilingual sentence representation model for 10 major Indic languages, achieving 403k+ downloads."
+      descBullets: [
+        "Proposed a two-step fine-tuning on machine-translated NLI and STS datasets, releasing L3Cube-MahaSBERT and L3Cube-HindSBERT with state-of-the-art semantic similarity performance.",
+        "Developed L3Cube-IndicSBERT, the first multilingual sentence representation model for 10 major Indic languages.",
+        "Achieved 403k+ downloads for L3Cube-IndicSBERT, 14k+ for L3Cube-HindSBERT, and 6k+ for L3Cube-MahaSBERT to date."
+      ]
     },
     {
       role: "Machine Learning Intern",
       company: "Veritas Technologies LLC",
       companylogo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Veritas_Technologies_logo.svg",
       date: "Sep 2022 – Jun 2023",
-      desc: "Built an integrated transformer-based abstractive text summarization engine using BART, achieving a 30% increase in ROUGE scores through fine-tuning on novel data."
+      descBullets: [
+        "Built an integrated transformer-based abstractive text summarization engine using BART.",
+        "Fine-tuned models on novel data, achieving a 30% increase in ROUGE scores."
+      ]
     },
     {
       role: "Technology Developer Intern",
       company: "D.E. Shaw & Co.",
       companylogo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/D.E._Shaw_%26_Co._Logo.png",
       date: "May 2022 – Jul 2022",
-      desc: "Developed a full-stack AOP solution to track user activity on the Compensation Portal handling sensitive data, optimizing response time to 20ms. Designed proof-of-concept UI components for portal performance visualization and usage analytics to support load forecasting."
+      descBullets: [
+        "Developed a full-stack AOP solution to track user activity on the Compensation Portal handling sensitive data, optimizing response time to 20ms.",
+        "Designed proof-of-concept UI components for portal performance visualization and usage analytics to support load forecasting."
+      ]
     }
   ]
 };
+
 
 
 // Open Source Section
