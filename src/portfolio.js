@@ -115,18 +115,17 @@ const educationInfo = {
       schoolName: "University of Massachusetts Amherst",
       logo: "https://upload.wikimedia.org/wikipedia/en/6/6e/UMass_Amherst_logo.svg",
       subHeader: "Master of Science in Computer Science",
-      duration: "Sep 2023 – May 2025",
-      desc: "Graduate coursework in AI, Distributed Systems, and Cloud Computing.",
+      duration: "Expected Graduation: May 2027",
+      desc: "Specializing in AI and ML",
       descBullets: [
-        "Graduate Teaching Assistant for Advanced Web Development",
-        "Research in NLP-driven Knowledge Graphs"
+        "Coursework: Machine Learning, Advanced Natural Language Processing, Computer and Network Security"
       ]
     },
     {
       schoolName: "MKSSS's Cummins College of Engineering for Women, Pune",
       logo: "https://upload.wikimedia.org/wikipedia/en/0/0a/MKSSS_Cummins_College_of_Engineering_for_Women_logo.png",
       subHeader: "Bachelor of Engineering in Computer Engineering",
-      duration: "2018 – 2022",
+      duration: "2019 – 2023",
       desc: "Graduated with distinction; core focus on software development and data structures."
     }
   ]
@@ -148,23 +147,36 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Software Engineer Intern",
-      company: "Veritas Technologies LLC",
-      companylogo:
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Veritas_Technologies_logo.svg",
-      date: "May 2024 – Aug 2024",
-      desc: "Worked on cloud-native data management systems, improving scalability and performance."
+      role: "Member of Technical Staff",
+      company: "D.E. Shaw & Co.",
+      companylogo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/D.E._Shaw_%26_Co._Logo.png",
+      date: "Jul 2023 – Jul 2025",
+      desc: "Designed full-stack solutions for critical workflows in large financial systems, achieving 80% faster API responses and 85% increase in user efficiency. Engineered an advanced regex-based search for secure note management with Redis caching, slashing search time by 75%. Integrated '@' annotation support for attachment references and implemented thread-safe Usage Auditing using concurrent linked queues."
     },
     {
-      role: "Software Developer Intern",
-      company: "L3Cube Pune",
-      companylogo:
-        "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
-      date: "Jan 2022 – May 2022",
-      desc: "Developed NLP-driven applications for document summarization and semantic similarity."
+      role: "Natural Language Processing Intern",
+      company: "L3 Cube Labs",
+      companylogo: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
+      date: "Sep 2022 – Jul 2023",
+      desc: "Proposed a two-step fine-tuning on machine-translated NLI and STS datasets, releasing L3Cube-MahaSBERT and L3Cube-HindSBERT with state-of-the-art semantic similarity performance. Developed L3Cube-IndicSBERT, the first multilingual sentence representation model for 10 major Indic languages, achieving 403k+ downloads."
+    },
+    {
+      role: "Machine Learning Intern",
+      company: "Veritas Technologies LLC",
+      companylogo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Veritas_Technologies_logo.svg",
+      date: "Sep 2022 – Jun 2023",
+      desc: "Built an integrated transformer-based abstractive text summarization engine using BART, achieving a 30% increase in ROUGE scores through fine-tuning on novel data."
+    },
+    {
+      role: "Technology Developer Intern",
+      company: "D.E. Shaw & Co.",
+      companylogo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/D.E._Shaw_%26_Co._Logo.png",
+      date: "May 2022 – Jul 2022",
+      desc: "Developed a full-stack AOP solution to track user activity on the Compensation Portal handling sensitive data, optimizing response time to 20ms. Designed proof-of-concept UI components for portal performance visualization and usage analytics to support load forecasting."
     }
   ]
 };
+
 
 // Open Source Section
 const openSource = {
