@@ -225,6 +225,18 @@ const blogSection = {
   subtitle: "Personal tech blogs and insights (currently disabled)",
   display: false
 };
+
+const talkSection = {
+  title: "Talks",
+  subtitle: "Tech talks & presentations (currently disabled)",
+  display: false
+};
+
+const podcastSection = {
+  title: "Podcasts",
+  subtitle: "Podcast appearances or recordings (currently disabled)",
+  display: false
+};
 // =========================================
 
 // Contact
@@ -251,8 +263,10 @@ export {
   workExperiences,
   bigProjects,
   achievementSection,
-  openSource, // ✅ kept
-  blogSection, // ✅ new fix
+  openSource,
+  blogSection,
+  talkSection,
+  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable
