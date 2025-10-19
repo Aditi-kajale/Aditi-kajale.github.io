@@ -68,14 +68,16 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Massachusetts Amherst",
-      logo: require("./assets/images/umassLogo.png"),
+      logo:
+        "https://upload.wikimedia.org/wikipedia/en/6/6f/University_of_Massachusetts_Amherst_seal.svg",
       subHeader: "Master of Science in Computer Science",
       duration: "Aug 2025 – May 2027",
       desc: "Coursework: Machine Learning, Advanced NLP, Computer and Network Security"
     },
     {
       schoolName: "MKSSS Cummins College of Engineering for Women",
-      logo: require("./assets/images/cumminsLogo.png"),
+      logo:
+        "https://upload.wikimedia.org/wikipedia/en/a/a9/MKSSS_Cummins_College_logo.png",
       subHeader: "Bachelor of Technology in Computer Engineering",
       duration: "Aug 2019 – Jul 2023",
       desc: "GPA: 9.34 / 10 | Coursework: Data Structures, Algorithms, AI, OS, DBMS"
@@ -101,28 +103,32 @@ const workExperiences = {
     {
       role: "Member of Technical Staff",
       company: "D.E. Shaw & Co.",
-      companylogo: require("./assets/images/deshawLogo.png"),
+      companylogo:
+        "https://upload.wikimedia.org/wikipedia/en/d/d2/D.E._Shaw_%26_Co._logo.svg",
       date: "Jul 2023 – Jul 2025",
       desc: "Designed and optimized large-scale financial systems, boosting API performance by 80% and improving efficiency through caching and concurrent data structures."
     },
     {
       role: "Machine Learning Intern",
       company: "Veritas Technologies LLC",
-      companylogo: require("./assets/images/veritasLogo.png"),
+      companylogo:
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/Veritas_Technologies_logo.svg",
       date: "Sep 2022 – Jun 2023",
       desc: "Built transformer-based text summarization models (BART) achieving 30% higher ROUGE scores."
     },
     {
       role: "Natural Language Processing Intern",
       company: "L3Cube Labs",
-      companylogo: require("./assets/images/l3cubeLogo.png"),
+      companylogo:
+        "https://avatars.githubusercontent.com/u/86868216?s=200&v=4",
       date: "Sep 2022 – Jul 2023",
       desc: "Developed multilingual SBERT models for Indic languages with over 400k+ downloads on Hugging Face."
     },
     {
       role: "Technology Developer Intern",
       company: "D.E. Shaw & Co.",
-      companylogo: require("./assets/images/deshawLogo.png"),
+      companylogo:
+        "https://upload.wikimedia.org/wikipedia/en/d/d2/D.E._Shaw_%26_Co._logo.svg",
       date: "May 2022 – Jul 2022",
       desc: "Created full-stack AOP tracking for compensation systems, reducing latency to 20ms and integrating legacy systems."
     }
@@ -135,7 +141,8 @@ const bigProjects = {
   subtitle: "Here are some projects I've built and contributed to",
   projects: [
     {
-      image: require("./assets/images/arbitrageLogo.png"),
+      image:
+        "https://cdn-icons-png.flaticon.com/512/3208/3208674.png",
       projectName: "NSE-BSE Arbitrage Recommendation System",
       projectDesc:
         "Web-based trading system detecting arbitrage opportunities in Nifty 50 stocks using Angular, Spring Boot, and MySQL.",
@@ -144,7 +151,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tessaLogo.png"),
+      image:
+        "https://cdn-icons-png.flaticon.com/512/3039/3039436.png",
       projectName: "TESSA: 4-in-1 Text Analytics Engine",
       projectDesc:
         "Integrated NLP platform leveraging Transformer models (BERT, BART) for text summarization and semantic analysis.",
@@ -164,7 +172,7 @@ const achievementSection = {
       title: "Research Publications",
       subtitle:
         "3 research papers published in Springer, ACL Anthology, and IEEE proceedings.",
-      image: require("./assets/images/researchLogo.png"),
+      image: "https://cdn-icons-png.flaticon.com/512/190/190411.png",
       footerLink: [
         { name: "Springer", url: "https://link.springer.com/chapter/10.1007/978-3-031-37963-5_82" },
         { name: "ACL Anthology", url: "https://aclanthology.org/2023.paclic-1.16.pdf" },
