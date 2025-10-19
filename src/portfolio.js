@@ -20,8 +20,7 @@ const greeting = {
   username: "Aditi Kajale",
   title: "Hi! I'm Aditi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 experienced in building scalable Web and Mobile applications with React.js, Node.js, and modern frameworks."
-  ),
+    "Graduate Computer Science student specializing in Artificial Intelligence and Machine Learning, with hands-on experience in Machine Learning, NLP and Software Development",
   resumeLink:
     "https://drive.google.com/file/d/1JcnYn57bVvWOGsBuxRVxhmMFuiMnzl9G/view?usp=sharing",
   displayGreeting: true
@@ -176,45 +175,7 @@ const achievementSection = {
   display: true
 };
 
-// Blogs Section
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "Sharing what I learn — writing about tech, AI, and software engineering.",
-  displayMediumBlogs: "false",
-  blogs: [
-    {
-      url: "https://medium.com/@aditi-kajale",
-      title: "Exploring AI-Powered Knowledge Graphs",
-      description:
-        "A deep dive into how AI and graphs intersect for smarter reasoning."
-    }
-  ],
-  display: true
-};
 
-// Talks Section
-const talkSection = {
-  title: "Talks",
-  subtitle: emoji("I enjoy sharing knowledge and contributing to the community."),
-  talks: [
-    {
-      title: "Building Modern Web Apps with React",
-      subtitle: "Speaker at UMass Amherst Dev Summit 2024",
-      slides_url: "",
-      event_url: ""
-    }
-  ],
-  display: true
-};
-
-// Podcast Section
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I occasionally talk about tech and career growth.",
-  podcast: [],
-  display: false
-};
 
 // Resume Section
 const resumeSection = {
@@ -226,16 +187,12 @@ const resumeSection = {
 // Contact Info
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Let’s collaborate or discuss opportunities!",
-  number: "+1 (000) 000-0000",
-  email_address: "aditi.kajale@gmail.com"
+  subtitle: "Let’s connect about roles or collaborations in AI, ML, and Software!,
+  number: "+1 (413) 315-1082",
+  email_address: "kajaleaditi01@gmail.com"
 };
 
-// Twitter Section
-const twitterDetails = {
-  userName: "aditi_kajale",
-  display: false
-};
+
 
 const isHireable = true;
 
