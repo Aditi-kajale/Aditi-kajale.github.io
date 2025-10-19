@@ -102,7 +102,7 @@ const skillsSection = {
   { skillName: "SDLC", fontAwesomeClassname: "fas fa-project-diagram" },
   { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
   { skillName: "JUnit", fontAwesomeClassname: "fas fa-vial" }
-];
+],
 
   display: true
 };
