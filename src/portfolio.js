@@ -183,7 +183,7 @@ const bigProjects = {
       projectDesc:
         "Built a web-based trade recommendation system using the Yahoo Finance API to detect BSE–NSE arbitrage opportunities in Nifty 50 stocks, enabling real-time email alerts and improving trading efficiency.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Aditi-kajale/NSE-BSE-Arbitrage-System" }
+        { name: "GitHub", url: "https://github.com/Aditi-kajale/NSE-BSE-Arbitrage-Recommendation-System" }
       ]
     },
     {
@@ -192,7 +192,7 @@ const bigProjects = {
       projectDesc:
         "Engineered an integrated NLP platform leveraging Transformer architecture for Abstractive Text Summarization, improving ROUGE-L and content coherence scores by 30% through model fine-tuning and data optimization.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Aditi-kajale/TESSA-NLP-Engine" }
+        { name: "GitHub", url: "https://github.com/Aditi-kajale/TESSA" }
       ]
     }
   ],
