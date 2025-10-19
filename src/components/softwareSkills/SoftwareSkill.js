@@ -1,26 +1,24 @@
 import React from "react";
-import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import * as FaIcons from "react-icons/fa";
+import * as SiIcons from "react-icons/si";
 
-export default function SoftwareSkill() {
+import { softwareSkills } from "../../portfolio"; // adjust path as needed
+
+function SkillsSection() {
   return (
-    <div>
-      <div className="software-skills-main-div">
-        <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
-            return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
-              >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+    <div className="skills-icons flex flex-wrap justify-center gap-6">
+      {softwareSkills.map((skill) => {
+        const IconComponent =
+          FaIcons[skill.icon] || SiIcons[skill.icon] || FaIcons["FaCode"];
+        return (
+          <div key={skill.skillName} className="flex flex-col items-center">
+            <IconComponent size={40} color={skill.color} />
+            <p className="text-sm mt-2">{skill.skillName}</p>
+          </div>
+        );
+      })}
     </div>
   );
 }
+
+export default SkillsSection;
