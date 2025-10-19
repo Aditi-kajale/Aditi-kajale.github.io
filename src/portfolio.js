@@ -40,9 +40,15 @@ const skillsSection = {
   subTitle:
     "FULL STACK SOFTWARE DEVELOPER & MACHINE LEARNING ENTHUSIAST WITH A PASSION FOR BUILDING DATA-DRIVEN APPLICATIONS",
   skills: [
-    emoji("⚡ Develop robust full-stack web applications using Java, Spring Boot, React, and REST APIs"),
-    emoji("⚡ Build and fine-tune NLP and Transformer-based ML models for real-world use cases"),
-    emoji("⚡ Deploy scalable solutions leveraging databases, caching, and modern DevOps tools")
+    emoji(
+      "⚡ Develop robust full-stack web applications using Java, Spring Boot, React, and REST APIs"
+    ),
+    emoji(
+      "⚡ Build and fine-tune NLP and Transformer-based ML models for real-world use cases"
+    ),
+    emoji(
+      "⚡ Deploy scalable solutions leveraging databases, caching, and modern DevOps tools"
+    )
   ],
 
   softwareSkills: [
@@ -141,18 +147,19 @@ const bigProjects = {
   subtitle: "Here are some projects I've built and contributed to",
   projects: [
     {
-      image:
-        "https://cdn-icons-png.flaticon.com/512/3208/3208674.png",
+      image: "https://cdn-icons-png.flaticon.com/512/3208/3208674.png",
       projectName: "NSE-BSE Arbitrage Recommendation System",
       projectDesc:
         "Web-based trading system detecting arbitrage opportunities in Nifty 50 stocks using Angular, Spring Boot, and MySQL.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/Aditi-kajale/NSE-BSE-Arbitrage-Recommendation-System" }
+        {
+          name: "GitHub",
+          url: "https://github.com/Aditi-kajale/NSE-BSE-Arbitrage-Recommendation-System"
+        }
       ]
     },
     {
-      image:
-        "https://cdn-icons-png.flaticon.com/512/3039/3039436.png",
+      image: "https://cdn-icons-png.flaticon.com/512/3039/3039436.png",
       projectName: "TESSA: 4-in-1 Text Analytics Engine",
       projectDesc:
         "Integrated NLP platform leveraging Transformer models (BERT, BART) for text summarization and semantic analysis.",
@@ -174,26 +181,45 @@ const achievementSection = {
         "3 research papers published in Springer, ACL Anthology, and IEEE proceedings.",
       image: "https://cdn-icons-png.flaticon.com/512/190/190411.png",
       footerLink: [
-        { name: "Springer", url: "https://link.springer.com/chapter/10.1007/978-3-031-37963-5_82" },
-        { name: "ACL Anthology", url: "https://aclanthology.org/2023.paclic-1.16.pdf" },
-        { name: "IEEE", url: "https://ieeexplore.ieee.org/document/11070849" }
+        {
+          name: "Springer",
+          url: "https://link.springer.com/chapter/10.1007/978-3-031-37963-5_82"
+        },
+        {
+          name: "ACL Anthology",
+          url: "https://aclanthology.org/2023.paclic-1.16.pdf"
+        },
+        {
+          name: "IEEE",
+          url: "https://ieeexplore.ieee.org/document/11070849"
+        }
       ]
     },
     {
       title: "WeTech Goldman Sachs Global Mentorship Award",
-      subtitle: "Received prestigious scholarship awarded to only 50 women engineers across India."
+      subtitle:
+        "Received prestigious scholarship awarded to only 50 women engineers across India."
     },
     {
       title: "Citi Corp Hackathon Winner",
-      subtitle: "Won the apprenticeship project competition securing 1st position."
+      subtitle:
+        "Won the apprenticeship project competition securing 1st position."
     },
     {
       title: "Flipkart Girls Wanna Code 4.0",
-      subtitle: "Selected among top 200 participants from 9,700 applicants."
+      subtitle:
+        "Selected among top 200 participants from 9,700 applicants."
     }
   ],
   display: true
 };
+
+// ====== Added back to fix Netlify build ======
+const openSource = {
+  showGithubProfile: "true",
+  display: false
+};
+// ============================================
 
 // Contact
 const contactInfo = {
@@ -207,6 +233,7 @@ const contactInfo = {
 const twitterDetails = { userName: "aditi_kajale", display: false };
 const isHireable = true;
 
+// Exports
 export {
   illustration,
   greeting,
@@ -218,6 +245,7 @@ export {
   workExperiences,
   bigProjects,
   achievementSection,
+  openSource, // ✅ added back
   contactInfo,
   twitterDetails,
   isHireable
